@@ -8,5 +8,6 @@ class ABC(object):
         """Calculate the sum of two numbers"""
         return (self.a + self.b)
 
-objA = ABC(20, 10)
-print(sum(objA.sum()))
+objA = ABC(10, 30)
+total = objA.sum()
+print(total)
