@@ -9,4 +9,4 @@ class ABC(object):
         return (self.a + self.b)
 
 objA = ABC(20, 10)
-print(sum(objA.sum()))
+print(objA.sum())
